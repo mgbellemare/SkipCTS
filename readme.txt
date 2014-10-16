@@ -36,6 +36,7 @@ A typical installation on a Unix system proceeds as follows:
 > mkdir build
 > cd build
 > cmake ../src
+> make -j 4
 > cd ..
 > ln -s build/skipcts .
 

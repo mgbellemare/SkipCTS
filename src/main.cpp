@@ -124,7 +124,11 @@ static Compressor *buildCompressor() {
     } else if (options["method"].as<std::string>() == "skipcts") {
         c = new SkipCTS(history, d, skips, slots);
     } else if (options["method"].as<std::string>() == "facskipcts") {
-        c = new FactoredSkipCTS(history, d);
+
+        // MGB: there are unresolved issues with FacSkipCTS. 
+        std::cerr << "Factored SkipCTS is not currently fully functional. See readme.txt for details." << std::endl;
+        std::exit(1);
+        // c = new FactoredSkipCTS(history, d);
     } 
 
     if (c == NULL) {
