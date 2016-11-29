@@ -1,0 +1,4 @@
+:mod:`cts`
+**********
+
+.. automodule:: cts
