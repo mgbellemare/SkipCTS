@@ -55,7 +55,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'pyCTS'
-copyright = u'2016, Marc G. Bellemare'
+copyright = u'2016, Google Inc.'
 author = u'Marc G. Bellemare'
 
 # The version info for the project you're documenting, acts as replacement for
