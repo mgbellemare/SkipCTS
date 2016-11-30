@@ -1,11 +1,9 @@
-@mainpage
-
 SkipCTS
 =======
 
 Skip Context Tree Switching - Reference Implementation
 
-Authors: Marc G. Bellemare, Joel Veness, Erik Talvitie
+Authors: Marc G. Bellemare, Joel Veness, Erik Talvitie; Google Inc. for the Python implementation
 
 This is an implementation of the Skip Context Tree Switching (SkipCTS) algorithm based on
 Joel Veness' original source for Context Tree Switching (CTS). SkipCTS is described in
