@@ -12,7 +12,7 @@ import math
 import random
 import sys
 
-import cts.fastmath as fastmath
+from . import fastmath
 
 # Parameters of the CTS model. For clarity, we take these as constants.
 PRIOR_STAY_PROB = 0.5
