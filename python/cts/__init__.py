@@ -23,7 +23,7 @@ The ``cts`` package provides a Python implementation of the CTS algorithm.
 .. autofunction:: cts.fastmath.log_add
 """
 
-import cts.fastmath
-import cts.model
+from . import fastmath
+from . import model
 
 __version__ = '0.1'
